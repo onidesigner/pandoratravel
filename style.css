@@ -1,7 +1,7 @@
 /*
 Theme Name:   Newspaper
 Theme URI:    http://tagdiv.com
-Description:  Premium wordpress template, clean and easy to use.
+Description:  Premium wordpress template, clean and easy to use. Custom by Hoang
 Version:    9.0.0
 Author:     tagDiv
 Author URI:   http://themeforest.net/user/tagDiv/portfolio
@@ -34055,11 +34055,11 @@ td-md-is-safari
     display: block;
   }
   .chuyen-sau{background-position: 0 0;}
-  .tiet-kiem{background-position: 0 -36px;}
+  .khach-vip{background-position: 0 -36px;}
   .tu-van{background-position: 0 -72px;}
   .chat-luong{background-position: 0 -108px;}
   .chi-tiet{background-position: 0 -144px;}
-  .khach-vip{background-position: 0 -180px;}
+  .tiet-kiem{background-position: 0 -180px;}
 
   .reasons, .reasons li{
     list-style: none;

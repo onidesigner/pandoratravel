@@ -41,7 +41,7 @@ if($loop_sidebar_position == 'sidebar_left') {
 				<div class="td-container">
 					<center>
 						<h1 style="text-transform: uppercase;"><?php echo single_tag_title();?></h1>
-						<p>Bạn đang xem các sản phẩm <a href="<?php get_term_link(get_queried_object()->slug); ?>"><strong><?php echo single_tag_title();?></strong></a> được giới thiệu với đầy đủ thông tin chi tiết và giá cả hấp dẫn nhất.  <strong><?php echo single_tag_title();?></strong> là sản phẩm được rất nhiều khách hàng quan tâm tìm kiếm và đăng ký sử dụng, vì thế vui lòng liên hệ ngay với tư vấn bán hàng để được hỗ trợ booking tốt nhất. Hiện đang có <strong><?php echo get_queried_object()->count; ?></strong> sản phẩm <strong><?php echo single_tag_title();?></strong> được xếp theo thời gian gần nhất.</p>
+						<p>Bạn đang xem các sản phẩm <a href="<?php get_term_link(get_queried_object()->slug); ?>"><strong><?php echo single_tag_title();?></strong></a> được giới thiệu với đầy đủ thông tin chi tiết và giá cả hấp dẫn nhất.  <strong><?php echo single_tag_title();?></strong> là sản phẩm được rất nhiều khách hàng quan tâm tìm kiếm và đăng ký sử dụng, vì thế vui lòng liên hệ ngay với tư vấn bán hàng để được hỗ trợ booking tốt nhất. Hiện đang có <strong><?php echo get_queried_object()->count; ?></strong> sản phẩm <strong><?php echo single_tag_title();?></strong>.</p>
 					</center>
 					<?php do_action( 'woocommerce_archive_description' ); ?>
 				</div>
@@ -198,7 +198,7 @@ if($loop_sidebar_position == 'sidebar_left') {
 			<div class="td-container" style="padding-top: 50px; padding-bottom: 50px;">
 				<div class="term-description-bottom">
 					<div class="content js-content">
-						<p><a href="<?php echo home_url();?>"><strong>Pandora Việt Nam Travel</strong></a> cung cấp nhiều lựa chọn sản phẩm <a href="<?php get_term_link(get_queried_object()->slug); ?>"><strong><?php echo single_tag_title();?></strong></a> với chính sách hợp lý và giá cả hấp dẫn nhất từ các kênh đối tác uy tín.  <strong><?php echo single_tag_title();?></strong> là sản phẩm được rất nhiều khách hàng quan tâm tìm kiếm và đăng ký sử dụng, vì thế vui lòng liên hệ ngay với tư vấn bán hàng để được hỗ trợ booking tốt nhất.</p>
+						<p><a href="<?php echo home_url();?>"><strong><?php echo COMPANY_NAME;?></strong></a> cung cấp nhiều lựa chọn sản phẩm <a href="<?php get_term_link(get_queried_object()->slug); ?>"><strong><?php echo single_tag_title();?></strong></a> với chính sách hợp lý và giá cả hấp dẫn nhất từ các kênh đối tác uy tín. <strong><?php echo single_tag_title();?></strong> là sản phẩm được rất nhiều khách hàng quan tâm tìm kiếm và đăng ký sử dụng, vì thế vui lòng liên hệ ngay với tư vấn bán hàng để được hỗ trợ booking tốt nhất.</p>
 					</div>
 					<div class="show-more">
 						<a class="js-show-more" href="#">Xem Thêm Nội Dung</a>

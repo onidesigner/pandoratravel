@@ -764,3 +764,6 @@ add_action( 'woocommerce_before_shop_loop_item_title',
     },
     10
 );
+
+
+define( 'COMPANY_NAME', 'Pandora Việt Nam Travel' );

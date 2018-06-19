@@ -54,10 +54,10 @@ if($loop_sidebar_position == 'sidebar_left') {
 					<?php if (is_product_category() && !is_product_category('my-pham-spa')): ?>
 						<div id="archive-filters">
 							<form id="tour_filter">
-							<?php foreach( $GLOBALS['tour_filter'] as $filter ): 
-								
+							<?php foreach( $GLOBALS['tour_filter'] as $filter ):
+
 								// get the field's settings without attempting to load a value
-								$field = get_field_object( $filter['key'], 3703, false, false );									
+								$field = get_field_object( $filter['key'] );									
 
 								// set value if available
 								if( isset($_GET[ $filter['key'] ]) ) {		

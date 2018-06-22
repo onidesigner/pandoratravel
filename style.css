@@ -32109,6 +32109,10 @@ td-md-is-safari
   }
   .sf-menu > li.td-normal-menu > ul.sub-menu {
     text-align: left;
+    min-width: 200px;
+    right: 0;
+    left: auto;
+    width: 100%!important;
   }
 
   @media (min-width: 1141px){
@@ -35243,7 +35247,7 @@ td-md-is-safari
 /*--- Block Why choose us ---*/
   .block_why_choose_us{
     background-image: url(images/bg_why_choose_us.jpg);
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -35302,7 +35306,7 @@ td-md-is-safari
 /*--- Block Testimonial ---*/
   .block_testimonial{
     background-image: url(images/bg_testimonial.jpg);
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -36378,4 +36382,7 @@ td-md-is-safari
   .quantity .spinner {
       width: 50%;
       float: right;
+  }
+  .td-module-thumb .entry-thumb {
+    width: 100%;
   }
